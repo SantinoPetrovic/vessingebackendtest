@@ -1,13 +1,13 @@
 <?php
-require_once("/home/santino/www/vessinge/PDO.php");
+require_once("/home/santino/www/vessinge/pdo/PDO.php");
 ?>
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="requests.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="js/requests.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <div class="uploadMessage" style="">
@@ -35,7 +35,7 @@ require_once("/home/santino/www/vessinge/PDO.php");
 <?php else: ?>
 <h3>Logga ut</h3> 
 <div class="logoutUser">
-    <form action="logout.php" method="post">
+    <form action="php/logout.php" method="post">
         <input type="submit" name="logout" id="logout" value="Logga ut">
     </form>
 </div>
